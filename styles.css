@@ -1,6 +1,76 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('/fonts/norse-bold-webfont.woff2') format('woff2'),
+        url('/fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
+body{
+    display: flex;
+}
+
+.container-left{
+    position: relative;
+}
+
+.bg-left {
+    height: 100vh;
+}
+
+.bg-footer{
+    color: white;
+    position: absolute;
+    top: 98vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9rem;
+}
+
+.bg-footer a{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.odin-banner{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 212px;
+    padding: 16px;
+    font-size: 60px;
+}
+
+.odin-banner img{
+    width: 100px;
+}
+
+.odin-banner h1{
+    font-family: 'norsebold', serif;
+    font-weight: bold;
+    color: white;
+    align-self: center;
+    
+}
+
+
+
+
+
+
+
+
+
+img{
+
+}

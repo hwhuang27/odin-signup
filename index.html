@@ -62,12 +62,13 @@
                     <div class="form-row">
                         <div class="col">
                             <label for="password">Password</label><br>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" class="error" required>
+                            <div class="pw-error-msg">* Passwords do not match</div>
                         </div>
                        
                         <div class="col">
                             <label for="confirm-pw">Confirm Password</label><br>
-                            <input type="password" id="confirm-pw" name="confirm-pw">
+                            <input type="password" id="confirm-pw" name="confirm-pw" class="error" required>
                         </div>
                     </div>
                 </fieldset>

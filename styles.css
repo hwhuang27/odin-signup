@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -20,27 +21,29 @@ body{
 
 .container-left{
     position: relative;
+    flex: none;
+    width: 500px;
 }
 
-.bg-left {
+.container-left .bg-left {
     height: 100vh;
 }
 
-.bg-footer{
+.container-left .bg-footer{
     color: white;
     position: absolute;
     top: 98vh;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.9rem;
 }
 
-.bg-footer a{
+.container-left .bg-footer a{
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.odin-banner{
+.container-left .odin-banner{
     display: flex;
     background-color: rgba(0, 0, 0, 0.4);
     justify-content: center;
@@ -48,29 +51,82 @@ body{
     width: 100%;
     margin-top: 212px;
     padding: 16px;
-    font-size: 60px;
+    font-size: 54px;
 }
 
-.odin-banner img{
+.container-left .odin-banner img{
     width: 100px;
 }
 
-.odin-banner h1{
+.container-left .odin-banner h1{
     font-family: 'norsebold', serif;
     font-weight: bold;
     color: white;
     align-self: center;
-    
 }
 
+.container-right{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
 
+}
 
+.container-right header{
+    background-color: rgb(239, 239, 239);
+    padding: 164px 0 64px 48px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+}
 
+.container-right header .header-text{
+    width: 760px;
+}
 
+.form-area{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 24px 0 24px 36px;
+}
+.form-area fieldset {
+    border: 0;
+}
+.form-area legend {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
 
+.form-area .form-row{
+    display: flex;
+    flex-flow: row wrap;
 
+}
 
+.form-area .col{
+    margin-right: 64px;
+    margin-bottom: 24px;
+}
 
-img{
+.form-area label{
+    color: rgb(53, 53, 53);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
 
+.form-area input{
+    font-size: 20px;
+    padding: 8px 12px;
+    margin-top: 4px;
+    border: 1px solid #cfd0d3;
+    border-radius: 6px;
+    
+}
+.form-area input:focus{
+    outline: 0px;
+    border: 1px solid rgb(36, 117, 222);
+    /* Add box-shadow here */
 }

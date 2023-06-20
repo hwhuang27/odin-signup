@@ -49,13 +49,13 @@ body{
     justify-content: center;
     position: absolute;
     width: 100%;
-    margin-top: 212px;
-    padding: 16px;
-    font-size: 54px;
+    margin-top: 200px;
+    padding: 12px;
+    font-size: 50px;
 }
 
 .container-left .odin-banner img{
-    width: 100px;
+    width: 90px;
 }
 
 .container-left .odin-banner h1{
@@ -69,12 +69,11 @@ body{
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-
 }
 
 .container-right header{
     background-color: rgb(239, 239, 239);
-    padding: 164px 0 64px 48px;
+    padding: 128px 0 64px 48px;
     font-size: 24px;
     font-weight: bold;
     line-height: 1.2;
@@ -106,7 +105,7 @@ body{
 
 .form-area .col{
     margin-right: 64px;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .form-area label{
@@ -129,4 +128,29 @@ body{
     outline: 0px;
     border: 1px solid rgb(36, 117, 222);
     /* Add box-shadow here */
+}
+
+.container-right footer{
+    background-color: rgb(239, 239, 239);
+    padding: 32px 0 0 48px;
+    font-size: 16px;
+    flex: 1;
+}
+
+.container-right footer button{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 50px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.container-right footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #596D48;
+
 }
